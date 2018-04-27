@@ -12,6 +12,5 @@ a treasure chest full of golden coins, spider webs, animated dungeon ghosts.
 1) A set of animated dungeon torch fires hanging on the dungeon walls. These fires should locally
 illuminate the surrounding areas of the dungeon walls. (10%)
 
-2) A glowing ghost object using the Dino model provided in RenderMonkey software package. (10%)
 
 3) Drifting ghost fog in the dungeon. (10%)
