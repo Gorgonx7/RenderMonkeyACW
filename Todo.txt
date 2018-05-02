@@ -1,6 +1,6 @@
 
 
-parallax mapping based 10%)
+parallax mapping based 2%)
 
 
 a treasure chest full of golden coins, spider webs, animated dungeon ghosts. 
@@ -16,3 +16,4 @@ to Add
 
 Glowing ghost
 Teapot and sphere
+height mapped post
