@@ -905,7 +905,7 @@
    >
 ]>
 <RENDER_MONKEY>
- <RmEffectWorkspace NAME="Effect Workspace" API="" ACTIVE_EFFECT="Effect Workspace.Effect Group 3.Textured" VALIDATION_STRING="" XML_VERSION="RenderMonkey 1.71">
+ <RmEffectWorkspace NAME="Effect Workspace" API="" ACTIVE_EFFECT="Effect Workspace.Development.Render to Texture" VALIDATION_STRING="" XML_VERSION="RenderMonkey 1.71">
   <RmRegistryBranch NAME="RM_REGISTRY" API="" XML_VERSION="RenderMonkey 1.71">
    <RmRegistryBranch NAME="RM_LOCAL" API="" XML_VERSION="RenderMonkey 1.71">
     <RmRegistryBranch NAME="RM_PLUGIN" API="" XML_VERSION="RenderMonkey 1.71"><RmTextDataBlock TYPE="TEXT"><![CDATA[
@@ -1079,10 +1079,10 @@
        <RmRegistryBranch NAME="Effect Workspace.Development.Render to Texture" API="" XML_VERSION="RenderMonkey 1.71">
         <RmIntegerVariable NAME="X" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="0" MIN="-10" MAX="10" CLAMP="FALSE"/>
         <RmIntegerVariable NAME="Y" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="0" MIN="-10" MAX="10" CLAMP="FALSE"/>
-        <RmIntegerVariable NAME="Width" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="1386" MIN="-10" MAX="10" CLAMP="FALSE"/>
-        <RmIntegerVariable NAME="Height" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="353" MIN="-10" MAX="10" CLAMP="FALSE"/>
+        <RmIntegerVariable NAME="Width" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="829" MIN="-10" MAX="10" CLAMP="FALSE"/>
+        <RmIntegerVariable NAME="Height" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="653" MIN="-10" MAX="10" CLAMP="FALSE"/>
         <RmIntegerVariable NAME="ShowStatus" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="1" MIN="-10" MAX="10" CLAMP="FALSE"/>
-        <RmIntegerVariable NAME="Visible" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="0" MIN="-10" MAX="10" CLAMP="FALSE"/>
+        <RmIntegerVariable NAME="Visible" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="1" MIN="-10" MAX="10" CLAMP="FALSE"/>
         <RmIntegerVariable NAME="Minimized X" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="-1" MIN="-10" MAX="10" CLAMP="FALSE"/>
         <RmIntegerVariable NAME="Minimized Y" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="-1" MIN="-10" MAX="10" CLAMP="FALSE"/>
        </RmRegistryBranch>
@@ -1122,7 +1122,7 @@
         <RmIntegerVariable NAME="Width" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="829" MIN="-10" MAX="10" CLAMP="FALSE"/>
         <RmIntegerVariable NAME="Height" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="653" MIN="-10" MAX="10" CLAMP="FALSE"/>
         <RmIntegerVariable NAME="ShowStatus" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="1" MIN="-10" MAX="10" CLAMP="FALSE"/>
-        <RmIntegerVariable NAME="Visible" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="1" MIN="-10" MAX="10" CLAMP="FALSE"/>
+        <RmIntegerVariable NAME="Visible" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="0" MIN="-10" MAX="10" CLAMP="FALSE"/>
         <RmIntegerVariable NAME="Minimized X" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="-1" MIN="-10" MAX="10" CLAMP="FALSE"/>
         <RmIntegerVariable NAME="Minimized Y" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="-1" MIN="-10" MAX="10" CLAMP="FALSE"/>
        </RmRegistryBranch>
@@ -1526,13 +1526,13 @@ Fragment Program]]></RmTextDataBlock></RmStringVariable>
        <RmStringVariable NAME="Editing Pass" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC=""><RmTextDataBlock TYPE="TEXT"><![CDATA[
 Final Render]]></RmTextDataBlock></RmStringVariable>
        <RmIntegerVariable NAME="Y" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="0" MIN="-10" MAX="10" CLAMP="FALSE"/>
-       <RmIntegerVariable NAME="Width" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="650" MIN="-10" MAX="10" CLAMP="FALSE"/>
-       <RmIntegerVariable NAME="Height" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="650" MIN="-10" MAX="10" CLAMP="FALSE"/>
+       <RmIntegerVariable NAME="Width" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="829" MIN="-10" MAX="10" CLAMP="FALSE"/>
+       <RmIntegerVariable NAME="Height" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="653" MIN="-10" MAX="10" CLAMP="FALSE"/>
        <RmIntegerVariable NAME="ShowStatus" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="1" MIN="-10" MAX="10" CLAMP="FALSE"/>
        <RmIntegerVariable NAME="Visible" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="1" MIN="-10" MAX="10" CLAMP="FALSE"/>
        <RmIntegerVariable NAME="Minimized X" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="-1" MIN="-10" MAX="10" CLAMP="FALSE"/>
        <RmIntegerVariable NAME="Minimized Y" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="-1" MIN="-10" MAX="10" CLAMP="FALSE"/>
-       <RmIntegerVariable NAME="X" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="0" MIN="-10" MAX="10" CLAMP="FALSE"/>
+       <RmIntegerVariable NAME="X" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="829" MIN="-10" MAX="10" CLAMP="FALSE"/>
       </RmRegistryBranch>
       <RmRegistryBranch NAME="Effect Workspace.Development.Textured_1" API="" XML_VERSION="RenderMonkey 1.71">
        <RmRegistryBranch NAME="Disassembly" API="" XML_VERSION="RenderMonkey 1.71"/>
@@ -1574,7 +1574,7 @@ Pass 0]]></RmTextDataBlock></RmStringVariable>
        <RmIntegerVariable NAME="Width" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="650" MIN="-10" MAX="10" CLAMP="FALSE"/>
        <RmIntegerVariable NAME="Height" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="458" MIN="-10" MAX="10" CLAMP="FALSE"/>
        <RmIntegerVariable NAME="ShowStatus" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="1" MIN="-10" MAX="10" CLAMP="FALSE"/>
-       <RmIntegerVariable NAME="Visible" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="1" MIN="-10" MAX="10" CLAMP="FALSE"/>
+       <RmIntegerVariable NAME="Visible" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="0" MIN="-10" MAX="10" CLAMP="FALSE"/>
        <RmIntegerVariable NAME="Minimized X" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="-1" MIN="-10" MAX="10" CLAMP="FALSE"/>
        <RmIntegerVariable NAME="Minimized Y" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="-1" MIN="-10" MAX="10" CLAMP="FALSE"/>
        <RmIntegerVariable NAME="X" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="0" MIN="-10" MAX="10" CLAMP="FALSE"/>
@@ -1744,7 +1744,7 @@ Pass 0]]></RmTextDataBlock></RmStringVariable>
     </RmRegistryBranch>
     <RmRegistryBranch NAME="WORKSPACE" API="" XML_VERSION="RenderMonkey 1.71">
      <RmStringVariable NAME="LAST_SAVE" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC=""><RmTextDataBlock TYPE="TEXT"><![CDATA[
-2/5/2018 15:27:15]]></RmTextDataBlock></RmStringVariable>
+3/5/2018 16:56:44]]></RmTextDataBlock></RmStringVariable>
      <RmStringVariable NAME="VERSION" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC=""><RmTextDataBlock TYPE="TEXT"><![CDATA[
 RenderMonkey Version 1.82 (build 322)]]></RmTextDataBlock></RmStringVariable>
      <RmStringVariable NAME="XML_VERSION" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC=""><RmTextDataBlock TYPE="TEXT"><![CDATA[
@@ -1801,9 +1801,6 @@ void main( void )
       <RmState NAME="GL_TextureMinify" API="OpenGL" STATE="4" VALUE="6" USAGE="SAMPLER_STATE"/>
       <RmState NAME="GL_TextureMagnify" API="OpenGL" STATE="5" VALUE="1" USAGE="SAMPLER_STATE"/>
      </RmTextureObject>
-     <RmSampler NAME="baseMap" API="" REGISTER="-1"/>
-     <RmShaderConstant NAME="viewInv" API="" REGISTER="-1"/>
-     <RmShaderConstant NAME="BillBoardSize" API="" REGISTER="-1"/>
     </RmGLPass>
    </RmOpenGLEffect>
    <RmOpenGLEffect NAME="Bilbording_1" API="OpenGL" ACTIVE_CAMERA="">
@@ -2571,7 +2568,7 @@ void main(void)
     </RmGLPass>
    </RmOpenGLEffect>
    <RmOpenGLEffect NAME="Render to Texture" API="OpenGL" ACTIVE_CAMERA="Dino Camera">
-    <RmCamera NAME="Dino Camera" API="" CAMERA_POSITION_X="-139.421265" CAMERA_POSITION_Y="226.080338" CAMERA_POSITION_Z="15.960798" LOOK_AT_VECTOR_X="0.000000" LOOK_AT_VECTOR_Y="0.000000" LOOK_AT_VECTOR_Z="0.000000" UP_VECTOR_X="-0.145724" UP_VECTOR_Y="-0.020037" UP_VECTOR_Z="-0.989122" FOV="45.000000" NEAR_CLIP_PLANE="1.000000" FAR_CLIP_PLANE="1000.000000"/>
+    <RmCamera NAME="Dino Camera" API="" CAMERA_POSITION_X="117.726440" CAMERA_POSITION_Y="167.528030" CAMERA_POSITION_Z="26.599829" LOOK_AT_VECTOR_X="-17.610275" LOOK_AT_VECTOR_Y="-48.928913" LOOK_AT_VECTOR_Z="29.518608" UP_VECTOR_X="-0.061317" UP_VECTOR_Y="0.024877" UP_VECTOR_Z="-0.997808" FOV="45.000000" NEAR_CLIP_PLANE="1.000000" FAR_CLIP_PLANE="1000.000000"/>
     <RmColorVariable NAME="GlowColor" API="" ARTIST_EDITABLE="TRUE" VARIABLE_SEMANTIC="" VALUE_0="0.022886" VALUE_1="1.000000" VALUE_2="0.119954" VALUE_3="1.000000"/>
     <RmRenderableTexture NAME="renderTexture" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" FILE_NAME="" ORIGIN="0" WIDTH="512" HEIGHT="512" FORMAT="21" USE_VIEWPORT_DIMENSIONS="FALSE" GENERATE_MIPMAPS="TRUE" WIDTH_RATIO="1.000000" HEIGHT_RATIO="1.000000"/>
     <RmStreamMap NAME="Stream Mapping" API="">
@@ -2633,14 +2630,14 @@ void main(void)
    if(teapot.r>0.1)
    gl_FragColor=teapot;
    else
-   gl_FragColor = teapotSmoothed.rgba * GlowColor * Intensity * 3; 
+   gl_FragColor = teapotSmoothed.rgba * GlowColor * Intensity * 6; 
    
    
 
 }]]></RmShaderCode></RmGLShader>
      <RmStreamMapReference NAME="Stream Mapping" API=""/>
      <RmFloatVariable NAME="pixelSize" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="0.990000" MIN="-1.000000" MAX="0.000000" CLAMP="FALSE"/>
-     <RmMatrixVariable NAME="viewInv" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="ViewInverse" VALUE_0="-0.437237" VALUE_1="-0.612148" VALUE_2="0.658861" VALUE_3="47.261600" VALUE_4="0.710224" VALUE_5="0.214408" VALUE_6="0.670530" VALUE_7="48.098633" VALUE_8="-0.551729" VALUE_9="0.761120" VALUE_10="0.341016" VALUE_11="24.461788" VALUE_12="0.000000" VALUE_13="0.000000" VALUE_14="-0.000000" VALUE_15="1.000000"/>
+     <RmMatrixVariable NAME="viewInv" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="ViewInverse" VALUE_0="1.000000" VALUE_1="0.000000" VALUE_2="0.000000" VALUE_3="26.077818" VALUE_4="0.000000" VALUE_5="1.000000" VALUE_6="0.000000" VALUE_7="4.557290" VALUE_8="0.000000" VALUE_9="0.000000" VALUE_10="1.000000" VALUE_11="63.295681" VALUE_12="0.000000" VALUE_13="0.000000" VALUE_14="0.000000" VALUE_15="1.000000"/>
      <RmFloatVariable NAME="BillBoardSize" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="32.419998" MIN="-1.000000" MAX="1.000000" CLAMP="FALSE"/>
      <RmTextureObject NAME="Texture0" API="OpenGL" STATE_INDEX="0" VERTEX_TEXTURE="FALSE">
       <RmTextureReference NAME="renderTexture" API=""/>
@@ -4695,15 +4692,88 @@ mat4 getScale(vec3 scale)
   </RmEffectGroup>
   <RmEffectGroup NAME="Effect Group 3" API="">
    <RmOpenGLEffect NAME="Textured" API="OpenGL" ACTIVE_CAMERA="">
+    <RmCamera NAME="Dino Camera" API="" CAMERA_POSITION_X="0.000000" CAMERA_POSITION_Y="0.000000" CAMERA_POSITION_Z="200.000000" LOOK_AT_VECTOR_X="0.000000" LOOK_AT_VECTOR_Y="0.000000" LOOK_AT_VECTOR_Z="0.000000" UP_VECTOR_X="0.000000" UP_VECTOR_Y="1.000000" UP_VECTOR_Z="0.000000" FOV="45.000000" NEAR_CLIP_PLANE="1.000000" FAR_CLIP_PLANE="1000.000000"/>
+    <RmColorVariable NAME="GlowColor" API="" ARTIST_EDITABLE="TRUE" VARIABLE_SEMANTIC="" VALUE_0="0.022886" VALUE_1="1.000000" VALUE_2="0.119954" VALUE_3="1.000000"/>
     <Rm2DTextureVariable NAME="base" API="" ARTIST_EDITABLE="TRUE" VARIABLE_SEMANTIC="" FILE_NAME="C:\Program Files (x86)\AMD\RenderMonkey 1.82\Examples\Media\Textures\Fieldstone.tga" ORIGIN="0"/>
+    <RmRenderableTexture NAME="renderTexture" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" FILE_NAME="" ORIGIN="0" WIDTH="512" HEIGHT="512" FORMAT="21" USE_VIEWPORT_DIMENSIONS="FALSE" GENERATE_MIPMAPS="TRUE" WIDTH_RATIO="1.000000" HEIGHT_RATIO="1.000000"/>
     <RmStreamMap NAME="Stream Mapping" API="">
      <RmStream NAME="Stream" API="" STRIDE="20">
       <RmStreamChannel NAME="Position_0" API="" DATA_SIZE="12" DATA_TYPE="2" REGISTER="0" USAGE="0" USAGE_INDEX="0" ATTRIBUTE_NAME="rm_Vertex"/>
       <RmStreamChannel NAME="TexCoord_0" API="" DATA_SIZE="8" DATA_TYPE="1" REGISTER="0" USAGE="5" USAGE_INDEX="0" ATTRIBUTE_NAME="rm_TexCoord0"/>
      </RmStream>
     </RmStreamMap>
+    <RmModelData NAME="Sphere" API="" FILE_NAME="C:\Program Files (x86)\AMD\RenderMonkey 1.82\Examples\Media\Models\ScreenAlignedQuad.3ds" ORIENTATION="0"/>
     <RmModelData NAME="Teapot" API="" FILE_NAME="C:\Program Files (x86)\AMD\RenderMonkey 1.82\Examples\Media\Models\Teapot.3ds" ORIENTATION="0"/>
-    <RmGLPass NAME="Pass 0" API="OpenGL" PASS_INDEX="0" ENABLED="TRUE">
+    <RmModelData NAME="Dino" API="" FILE_NAME="C:\Program Files (x86)\AMD\RenderMonkey 1.82\Examples\Media\Models\Dino.3ds" ORIENTATION="0"/>
+    <RmGLPass NAME="Final Render" API="OpenGL" PASS_INDEX="1" ENABLED="TRUE">
+     <RmModelReference NAME="Sphere" API=""/>
+     <RmGLShader NAME="Vertex Program" API="OpenGL" PIXEL_SHADER="FALSE"><RmShaderCode TYPE="TEXT"><![CDATA[
+varying vec2 vTexCoord;
+varying vec3 vNormal;
+uniform float BillBoardSize;
+uniform mat4 viewInv;
+void main(void)
+{
+   vec4 bbPos = gl_Vertex;
+    bbPos.xy *= BillBoardSize;
+    //Billboarding:
+    vec3 Vx= viewInv [0].xyz;
+    vec3 Vy= viewInv [1].xyz;
+    bbPos.xyz = (bbPos.x * Vx+ bbPos.y * Vy).xyz; 
+    bbPos.xyz +=vec3(20.0);
+    gl_Position = gl_ModelViewProjectionMatrix* bbPos;
+    
+   vTexCoord = gl_MultiTexCoord0.xy;
+   vNormal = gl_NormalMatrix * gl_Normal;
+}]]></RmShaderCode></RmGLShader>
+     <RmGLShader NAME="Fragment Program" API="OpenGL" PIXEL_SHADER="TRUE"><RmShaderCode TYPE="TEXT"><![CDATA[
+uniform sampler2D Texture0;
+uniform float pixelSize;
+uniform vec4 GlowColor;
+varying vec2 vTexCoord;
+varying vec3 vNormal;
+
+
+
+vec4 texSmoothing(sampler2D Texture, vec2 uv)
+{
+   vec4 smoothedCol=vec4(0.0);
+   for (int i=-2; i<=2; i++)
+   {
+      for (int j=-2; j<=2; j++)
+      {
+         smoothedCol += texture2D(Texture, uv + vec2(i, j)*pixelSize );
+      }
+   }
+return smoothedCol/25.0;
+}
+void main(void)
+{
+   float Intensity = normalize( vNormal ).z * 0.5 + 0.5;
+   vec4 teapot= texture2D(Texture0, vTexCoord);
+   vec4 teapotSmoothed=texSmoothing(Texture0, vTexCoord);
+   if(teapot.r>0.1)
+   gl_FragColor=teapot;
+   else
+   gl_FragColor = teapotSmoothed.rgba * GlowColor * Intensity * 6; 
+   
+   
+
+}]]></RmShaderCode></RmGLShader>
+     <RmStreamMapReference NAME="Stream Mapping" API=""/>
+     <RmFloatVariable NAME="pixelSize" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="0.990000" MIN="-1.000000" MAX="0.000000" CLAMP="FALSE"/>
+     <RmMatrixVariable NAME="viewInv" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="ViewInverse" VALUE_0="1.000000" VALUE_1="0.000000" VALUE_2="0.000000" VALUE_3="26.077818" VALUE_4="0.000000" VALUE_5="1.000000" VALUE_6="0.000000" VALUE_7="4.557290" VALUE_8="0.000000" VALUE_9="0.000000" VALUE_10="1.000000" VALUE_11="63.295681" VALUE_12="0.000000" VALUE_13="0.000000" VALUE_14="0.000000" VALUE_15="1.000000"/>
+     <RmFloatVariable NAME="BillBoardSize" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="32.419998" MIN="-1.000000" MAX="1.000000" CLAMP="FALSE"/>
+     <RmTextureObject NAME="Texture0" API="OpenGL" STATE_INDEX="0" VERTEX_TEXTURE="FALSE">
+      <RmTextureReference NAME="renderTexture" API=""/>
+     </RmTextureObject>
+     <RmSampler NAME="Texture0" API="" REGISTER="-1"/>
+     <RmShaderConstant NAME="viewInv" API="" REGISTER="-1"/>
+     <RmShaderConstant NAME="pixelSize" API="" REGISTER="-1"/>
+     <RmShaderConstant NAME="BillBoardSize" API="" REGISTER="-1"/>
+     <RmShaderConstant NAME="GlowColor" API="" REGISTER="-1"/>
+    </RmGLPass>
+    <RmGLPass NAME="Pass 0" API="OpenGL" PASS_INDEX="2" ENABLED="TRUE">
      <RmModelReference NAME="Teapot" API=""/>
      <RmRenderStateBlock NAME="Render State" API="OpenGL">
       <RmState NAME="GL_CullMode" API="OpenGL" STATE="8" VALUE="1" USAGE="RENDER_STATE"/>
@@ -4807,7 +4877,7 @@ void main( void )
       <RmDynamicVariableValueContainer>
        <RmDynamicVariableValue ROW_INDEX="0" COLUMN_INDEX="0" VALUE="9.020000"/>
        <RmDynamicVariableValue ROW_INDEX="1" COLUMN_INDEX="0" VALUE="10.620000"/>
-       <RmDynamicVariableValue ROW_INDEX="2" COLUMN_INDEX="0" VALUE="64.412918"/>
+       <RmDynamicVariableValue ROW_INDEX="2" COLUMN_INDEX="0" VALUE="59.834015"/>
       </RmDynamicVariableValueContainer>
      </RmDynamicVariable>
      <RmDynamicVariable NAME="Transform" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VARIABLE_TYPE="FLOAT" ROWS="3" COLUMNS="1" FIXED_SIZE="TRUE" MIN="-1.000000" MAX="1.000000" CLAMP="FALSE" NORMALIZE="FALSE">
@@ -4832,9 +4902,9 @@ void main( void )
       </RmDynamicVariableValueContainer>
      </RmDynamicVariable>
      <RmFloatVariable NAME="WingLength" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="3.960000" MIN="-1.000000" MAX="0.000000" CLAMP="FALSE"/>
-     <RmFloatVariable NAME="T" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="Time0_X" VALUE="112.297684" MIN="-1.000000" MAX="1.000000" CLAMP="FALSE"/>
-     <RmFloatVariable NAME="freq" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="2.620000" MIN="-1.000000" MAX="1.000000" CLAMP="FALSE"/>
-     <RmFloatVariable NAME="S" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="32.057602" MIN="-1.000000" MAX="1.000000" CLAMP="FALSE"/>
+     <RmFloatVariable NAME="T" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="Time0_X" VALUE="83.773849" MIN="-1.000000" MAX="1.000000" CLAMP="FALSE"/>
+     <RmFloatVariable NAME="freq" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="8.760690" MIN="-1.000000" MAX="1.000000" CLAMP="FALSE"/>
+     <RmFloatVariable NAME="S" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="32.718750" MIN="-1.000000" MAX="0.000000" CLAMP="FALSE"/>
      <RmDynamicVariable NAME="OrbitPoint" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VARIABLE_TYPE="FLOAT" ROWS="3" COLUMNS="1" FIXED_SIZE="TRUE" MIN="-1.000000" MAX="1.000000" CLAMP="FALSE" NORMALIZE="FALSE">
       <RmDynamicVariableValueContainer>
        <RmDynamicVariableValue ROW_INDEX="0" COLUMN_INDEX="0" VALUE="1.100000"/>
@@ -4863,6 +4933,38 @@ void main( void )
      <RmShaderConstant NAME="OrbitPosition" API="" REGISTER="-1"/>
      <RmShaderConstant NAME="OrbitPoint" API="" REGISTER="-1"/>
      <RmShaderConstant NAME="WingTransform" API="" REGISTER="-1"/>
+    </RmGLPass>
+    <RmGLPass NAME="RenderToTexture" API="OpenGL" PASS_INDEX="0" ENABLED="TRUE">
+     <RmCameraReference NAME="Dino Camera" API="" USE_ACTIVE_CAMERA="FALSE"/>
+     <RmModelReference NAME="Dino" API=""/>
+     <RmGLShader NAME="Vertex Program" API="OpenGL" PIXEL_SHADER="FALSE"><RmShaderCode TYPE="TEXT"><![CDATA[
+varying vec3 vNormal;
+varying vec2 vTC;
+
+void main(void)
+{
+   gl_Position = gl_ModelViewProjectionMatrix * gl_Vertex;
+   vNormal = gl_NormalMatrix * gl_Normal;
+   vTC = gl_MultiTexCoord0.xy;
+}]]></RmShaderCode></RmGLShader>
+     <RmGLShader NAME="Fragment Program" API="OpenGL" PIXEL_SHADER="TRUE"><RmShaderCode TYPE="TEXT"><![CDATA[
+varying vec3 vNormal;
+varying vec2 vTC;
+uniform vec4 GlowColor;
+uniform sampler2D Base;
+
+void main(void)
+{
+   vec3 N = normalize( vNormal ) * 0.5 + 0.5;
+   gl_FragColor = texture2D(Base, vTC);
+}]]></RmShaderCode></RmGLShader>
+     <RmRenderTarget NAME="renderTexture" API="" INDEX="0" RENDER_TO_SCREEN="FALSE" COLOR_CLEAR="TRUE" DEPTH_CLEAR="TRUE" CLEAR_COLOR_VALUE="0" DEPTH_CLEAR_VALUE="1.000000"/>
+     <RmStreamMapReference NAME="Stream Mapping" API=""/>
+     <Rm2DTextureVariable NAME="Hatch Texture" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" FILE_NAME=".\ghost-hunting.jpg" ORIGIN="0"/>
+     <RmTextureObject NAME="Base" API="OpenGL" STATE_INDEX="0" VERTEX_TEXTURE="FALSE">
+      <RmTextureReference NAME="Hatch Texture" API=""/>
+     </RmTextureObject>
+     <RmSampler NAME="Base" API="" REGISTER="-1"/>
     </RmGLPass>
    </RmOpenGLEffect>
   </RmEffectGroup>
