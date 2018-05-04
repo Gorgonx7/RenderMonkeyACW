@@ -6,14 +6,9 @@ parallax mapping based 2%)
 a treasure chest full of golden coins, spider webs, animated dungeon ghosts. 
 
 
-1) A set of animated dungeon torch fires hanging on the dungeon walls. These fires should locally
-illuminate the surrounding areas of the dungeon walls. (10%)
+1)add attenuation to the fires
+fix the billboarding on the fires
 
 
 3) Drifting ghost fog in the dungeon. (10%)
 
-to Add
-
-Glowing ghost
-Teapot and sphere
-height mapped post
